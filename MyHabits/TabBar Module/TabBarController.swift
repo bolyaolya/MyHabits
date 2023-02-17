@@ -30,13 +30,13 @@ class TabBarController : UITabBarController {
         
         //создаем кнопки и привязываем к ним контроллеры
         let item1 = UITabBarItem(title: "Привычки", image: UIImage(named: "habits_img"), tag: 0)
-        let item2 = UITabBarItem(title: "Информация", image: UIImage(systemName: "info.circle"), tag: 1)
+        let item2 = UITabBarItem(title: "Информация", image: UIImage(systemName: "info.circle.fill"), tag: 1)
         
         firstTabController.tabBarItem = item1
         secondTabController.tabBarItem = item2
         
         //кастомизация иконок
         UITabBar.appearance().tintColor = UIColor(named: "Purple")
-        UITabBar.appearance().backgroundColor = .systemGray
+        UITabBar.appearance().backgroundColor = UIColor(named: "TabBarGray")
     }
 }

@@ -1,11 +1,11 @@
 {
   "images" : [
     {
+      "filename" : "Glyphhabits_img.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Glyphhabits_img.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
